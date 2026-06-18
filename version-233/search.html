@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片搜索-高清电影大全-热门影片片库-高清电影免费在线观看</title>
+  <meta name="description" content="高清电影大全站内搜索页，支持检索全站 2000 部高清电影、在线电影和精选电影片库内容。">
+  <meta name="keywords" content="电影搜索,影片搜索,高清电影大全,热门影片片库,高清电影,在线电影,精选电影,电影片库,电影免费在线观看">
+  <meta name="renderer" content="webkit">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="assets/original.css">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container-shell">
+    <div class="header-row">
+      <a class="logo-link" href="index.html" aria-label="高清电影大全">
+        <span class="logo-mark">影</span>
+        <span class="logo-text">
+          <strong>高清电影大全</strong>
+          <span>热门影片片库</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <span class="nav-group">
+          <button type="button">分类</button>
+          <span class="nav-dropdown">
+            <a href="category-selected.html">精选推荐</a>
+<a href="category-drama.html">剧情佳作</a>
+<a href="category-romance.html">爱情都市</a>
+<a href="category-suspense.html">悬疑惊悚</a>
+<a href="category-comedy.html">喜剧治愈</a>
+<a href="category-action.html">动作冒险</a>
+<a href="category-fantasy.html">奇幻科幻</a>
+<a href="category-horror.html">恐怖灵异</a>
+          </span>
+        </span>
+        <a href="categories.html">分类总览</a>
+        <a href="rankings.html">排行榜</a>
+      </nav>
+      <form class="header-search" action="search.html" method="get" role="search">
+        <input type="search" name="q" placeholder="搜索电影、地区、类型..." aria-label="搜索影片">
+        <button type="submit">搜</button>
+      </form>
+      <button class="mobile-menu-button" type="button" data-mobile-menu-button aria-expanded="false" aria-label="打开导航">☰</button>
+    </div>
+    <nav class="mobile-panel" data-mobile-panel aria-label="移动端导航">
+      <a href="index.html">首页</a>
+<a href="categories.html">分类</a>
+<a href="rankings.html">排行榜</a>
+<a href="search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+
+<main data-search-page>
+  <section class="page-hero">
+    <div class="container-shell">
+      <div class="breadcrumbs"><a href="index.html">首页</a><span>/</span><span>搜索</span></div>
+      <h1>搜索影片</h1>
+      <p>支持按片名、地区、类型、年份、标签和简介搜索全站 2000 部影片。</p>
+    </div>
+  </section>
+  <section class="section-block alt">
+    <div class="container-shell">
+      <div class="filter-panel" style="grid-template-columns: 1fr;">
+        <input type="search" data-search-input placeholder="输入片名、类型、地区、年份或标签..." aria-label="搜索影片">
+      </div>
+      <p data-search-count style="margin: 0 0 18px; color: #6b7280;"></p>
+      <div class="search-results-grid" data-search-results></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container-shell">
+    <div class="footer-grid">
+      <div>
+        <h3>高清电影大全</h3>
+        <p>汇集高清电影栏目内容，覆盖热门、经典、精选等多类影片，适合按片库分类浏览与在线播放。</p>
+      </div>
+      <div>
+        <h4>热门频道</h4>
+        <ul><li><a href="category-selected.html">精选推荐</a></li><li><a href="category-drama.html">剧情佳作</a></li><li><a href="category-romance.html">爱情都市</a></li><li><a href="category-suspense.html">悬疑惊悚</a></li></ul>
+      </div>
+      <div>
+        <h4>精选类型</h4>
+        <ul><li><a href="category-comedy.html">喜剧治愈</a></li><li><a href="category-action.html">动作冒险</a></li><li><a href="category-fantasy.html">奇幻科幻</a></li><li><a href="category-horror.html">恐怖灵异</a></li></ul>
+      </div>
+      <div>
+        <h4>更多片库</h4>
+        <ul><li><a href="category-history.html">历史古装</a></li><li><a href="category-family.html">家庭生活</a></li><li><a href="category-anime-variety.html">动漫综艺</a></li><li><a href="category-global.html">海外片库</a></li></ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>高清电影大全 · 纯静态影视片库 · 支持分类浏览、站内搜索与 HLS 在线播放。</p>
+    </div>
+  </div>
+</footer>
+  <script src="assets/movies-data.js" defer></script>
+  <script src="assets/site.js" defer></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
